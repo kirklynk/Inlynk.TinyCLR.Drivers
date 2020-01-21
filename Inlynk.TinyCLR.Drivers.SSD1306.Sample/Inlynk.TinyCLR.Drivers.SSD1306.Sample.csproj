@@ -5,18 +5,19 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8AC53F6E-2896-4862-8B2F-5616C077820B}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Inlynk.TinyCLR.Drivers.SSD1306</RootNamespace>
-    <AssemblyName>Inlynk.TinyCLR.Drivers.SSD1306</AssemblyName>
+    <ProjectGuid>{FDEC8C78-71A7-4C60-ABF2-D586A493604E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Inlynk.TinyCLR.Drivers.SSD1306.Sample</RootNamespace>
+    <AssemblyName>Inlynk.TinyCLR.Drivers.SSD1306.Sample</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <ProjectTypeGuids>{A1948822-69DD-4150-919B-F3F42EFB71CC};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -26,6 +27,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -34,7 +36,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="OLEDDisplayDriver.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -53,6 +55,15 @@
     <Reference Include="GHIElectronics.TinyCLR.Native, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\GHIElectronics.TinyCLR.Native.1.0.0\lib\net452\GHIElectronics.TinyCLR.Native.dll</HintPath>
     </Reference>
+    <Reference Include="GHIElectronics.TinyCLR.Pins, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GHIElectronics.TinyCLR.Pins.1.0.0\lib\net452\GHIElectronics.TinyCLR.Pins.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Inlynk.TinyCLR.Drivers.SSD1306\Inlynk.TinyCLR.Drivers.SSD1306.csproj">
+      <Project>{8AC53F6E-2896-4862-8B2F-5616C077820B}</Project>
+      <Name>Inlynk.TinyCLR.Drivers.SSD1306</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

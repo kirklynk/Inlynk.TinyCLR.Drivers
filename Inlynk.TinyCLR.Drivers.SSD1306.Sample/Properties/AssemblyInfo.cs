@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Inlynk.TinyCLR.Drivers.SSD1306_")]
+[assembly: AssemblyTitle("Inlynk.TinyCLR.Drivers.SSD1306.Sample")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Inlynk.TinyCLR.Drivers.SSD1306_")]
+[assembly: AssemblyProduct("Inlynk.TinyCLR.Drivers.SSD1306.Sample")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8ac53f6e-2896-4862-8b2f-5616c077820b")]
+[assembly: Guid("fdec8c78-71a7-4c60-abf2-d586a493604e")]
 
 // Version information for an assembly consists of the following four values:
 //

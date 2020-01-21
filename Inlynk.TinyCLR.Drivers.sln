@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inlynk.TinyCLR.Drivers.SSD1306", "Inlynk.TinyCLR.Drivers.SSD1306\Inlynk.TinyCLR.Drivers.SSD1306.csproj", "{DDAECCFA-8623-430E-AA2A-28259EA36B9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inlynk.TinyCLR.Drivers.SSD1306.Sample", "Inlynk.TinyCLR.Drivers.SSD1306.Sample\Inlynk.TinyCLR.Drivers.SSD1306.Sample.csproj", "{FDEC8C78-71A7-4C60-ABF2-D586A493604E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inlynk.TinyCLR.Drivers.SSD1306", "Inlynk.TinyCLR.Drivers.SSD1306\Inlynk.TinyCLR.Drivers.SSD1306.csproj", "{8AC53F6E-2896-4862-8B2F-5616C077820B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DDAECCFA-8623-430E-AA2A-28259EA36B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DDAECCFA-8623-430E-AA2A-28259EA36B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DDAECCFA-8623-430E-AA2A-28259EA36B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DDAECCFA-8623-430E-AA2A-28259EA36B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDEC8C78-71A7-4C60-ABF2-D586A493604E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEC8C78-71A7-4C60-ABF2-D586A493604E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEC8C78-71A7-4C60-ABF2-D586A493604E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FDEC8C78-71A7-4C60-ABF2-D586A493604E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEC8C78-71A7-4C60-ABF2-D586A493604E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDEC8C78-71A7-4C60-ABF2-D586A493604E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8AC53F6E-2896-4862-8B2F-5616C077820B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC53F6E-2896-4862-8B2F-5616C077820B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC53F6E-2896-4862-8B2F-5616C077820B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC53F6E-2896-4862-8B2F-5616C077820B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
