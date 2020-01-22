@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Kirk Kerr</authors>
+    <owners>Kirk K.</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/kirklynk/Inlynk.TinyCLR.Drivers</projectUrl>
+    <description>Simplified SSD1306 OLED driver for TinyCLR 1.0</description>
+    <releaseNotes>Adding simple SSD1306 OLED driver</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>OLED SSD1306 TinyCLR</tags>
+    
+  </metadata>
+</package>
