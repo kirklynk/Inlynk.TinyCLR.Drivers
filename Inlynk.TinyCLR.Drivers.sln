@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inlynk.TinyCLR.Drivers.SSD1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inlynk.TinyCLR.Drivers.SSD1306", "Inlynk.TinyCLR.Drivers.SSD1306\Inlynk.TinyCLR.Drivers.SSD1306.csproj", "{8AC53F6E-2896-4862-8B2F-5616C077820B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inlynk.TinyCLR.Drivers.Adafruit.TFTMiniJoystickFeatherWing", "Inlynk.TinyCLR.Drivers.Adafruit.TFTMiniJoystickFeatherWing\Inlynk.TinyCLR.Drivers.Adafruit.TFTMiniJoystickFeatherWing.csproj", "{0B70D802-96DA-4E72-A787-10C1EEC1F1C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{8AC53F6E-2896-4862-8B2F-5616C077820B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AC53F6E-2896-4862-8B2F-5616C077820B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AC53F6E-2896-4862-8B2F-5616C077820B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B70D802-96DA-4E72-A787-10C1EEC1F1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B70D802-96DA-4E72-A787-10C1EEC1F1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B70D802-96DA-4E72-A787-10C1EEC1F1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B70D802-96DA-4E72-A787-10C1EEC1F1C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
